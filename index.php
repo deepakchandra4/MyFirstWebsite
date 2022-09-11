@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.php">Lorem</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.php">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="demo" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/image1.jpg" alt="Los Angeles" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>Nature</h3>
+                    <p>Beautiful Nature</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/image2.jpg" alt="Chicago" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>Galaxy</h3>
+                    <p>This is Gralaxy view</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/image3.jpg" alt="New York" width="1100" height="500">
+                <div class="carousel-caption">
+                    <h3>View</h3>
+                    <p>We love this view</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <section class=my-5>
+        <div class=py-5>
+        <h1 class="text-center">About Us</h1>
+        </div>
+        <div class="container-fluid ">
+            <div class="row">
+                <div class="col-lg-6 md-6 col-12">
+                    <img src="images/image4.jpg" class="img-fluid aboutimg">
+                </div>
+                <div class="col-lg-6 md-6 col-12">
+                    <h1 class="display-4">I Am DATZ</h1>
+                    <p class="py-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam labore provident consectetur illo,
+                        dolore voluptatibus impedit perspiciatis, ratione laboriosam praesentium quo doloremque eos.
+                        Quam ad inventore ipsum esse. Id veniam, reiciendis animi commodi eaque porro ab alias hic illum natus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, natus obcaecati?
+                        Pariatur nam alias eos impedit aperiam dolore eaque iste.</p>
+                    <a href="about.php" class="btn btn-primary" style="background-color blue">Reach out to me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=my-5>
+        <div class=py-5>
+            <h1 class="text-center">Services</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12 ">
+                    <div class="card">
+                        <img class="card-img-top" src="images/image4.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">See this</h4>
+                            <p class="card-text">Beautiful Nature</p>
+                            <a href="#" class="btn btn-primary">More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 ">
+                    <div class="card">
+                        <img class="card-img-top" src="images/image4.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">See this</h4>
+                            <p class="card-text">Beautiful Nature</p>
+                            <a href="#" class="btn btn-primary">More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-12 ">
+                    <div class="card">
+                        <img class="card-img-top" src="images/image4.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">See this</h4>
+                            <p class="card-text">Beautiful Nature</p>
+                            <a href="#" class="btn btn-primary">More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=my-5>
+        <div class=py-5>
+            <h1 class="text-center">Gallery</h1>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/image1.jpg" class="img-fluid pb-4">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/image4.jpg" class="img-fluid pb-4">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/image3.jpg" class="img-fluid pb-4">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/image2.jpg" class="img-fluid pb-4">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/image3.jpg" class="img-fluid pb-4">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/image1.jpg" class="img-fluid pb-4">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/image3.jpg" class="img-fluid pb-4">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/image2.jpg" class="img-fluid pb-4">
+                </div>
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="images/image1.jpg" class="img-fluid pb-4">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class=my-5>
+        <div class=py-5>
+            <h1 class="text-center">Contact US</h1>
+        </div>
+        <div class="w-50 m-auto">
+            <form action="userinfo.php" method="post">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" name="name" autocomplete="off" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Email ID</label>
+                    <input type="text" name="email" autocomplete="off" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label>Mobile No.</label>
+                    <input type="text" name="mobile" autocomplete="off" class="form-control">
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col">
+                            <label>Your Message</label>
+                            <textarea name="message" class="form-control"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </section>S
+
+
+    <footer>
+        <p class="p-3 bg-dark text-white text-center">@Datzcreation..</p>
+    </footer>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
